@@ -1,0 +1,8 @@
+{
+  "name": "stamp_ranking",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.2.22"
+  }
+}

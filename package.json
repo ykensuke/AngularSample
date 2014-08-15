@@ -1,0 +1,15 @@
+{
+  "name": "stamp_ranking",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "bower install",
+    "start": "gulp webserver"
+  },
+  "devDependencies": {
+    "bower": "^1.3.9",
+    "gulp": "^3.8.7",
+    "gulp-webserver": "^0.6.0"
+  }
+}
