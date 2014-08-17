@@ -1,9 +1,10 @@
 var gulp = require('gulp'),
     webserver = require('gulp-webserver');
 
-gulp.task('webserver',function(){
+gulp.task('server',function(){
     gulp.src('app')
         .pipe(webserver({
+            fallback: 'index.html',
             port:9000,
             livereload:true
         }));
@@ -15,3 +16,8 @@ gulp.task('webserver',function(){
 //})
 
 //gulp.task('default',['webserver']);
+
+
+//gulp server
+//gulp build
+//dulp test
