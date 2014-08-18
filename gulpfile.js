@@ -2,11 +2,13 @@ var gulp = require('gulp'),
     webserver = require('gulp-webserver'),
     sass = require('gulp-sass'),
     autoprefixer = require('gulp-autoprefixer'),
-    clean = require('gulp-clean');
+    clean = require('gulp-clean'),
+    plumber = require('gulp-plumber');
 
 
 gulp.task('styles',function(){
     gulp.src('src/styles/*.scss')
+        .pipe(plumber())
         .pipe(sass())
         .pipe(autoprefixer("last 1 version", "> 1%", "ie 8", "ie 7"))
         .pipe(gulp.dest('build/styles/'))
