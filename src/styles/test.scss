@@ -1,0 +1,17 @@
+#parent{
+  display: flex;
+  .child{
+    border-radius: 20px;
+  }
+}
+
+#tester{
+  display:box;
+  border-radius: 20px;
+}
+
+header{
+  font-size: 100px;
+  background: #888888;
+  border-radius: 20px;
+}

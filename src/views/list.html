@@ -1,9 +1,10 @@
-<div ng-include="'view/HeaderView.html'"></div>
+<div ng-include="'views/header.html'"></div>
 <div>
-    これは詳細一覧Viewです。<br />
+    これは一覧Viewです。<br />
     <div>
         <input ng-model="user">
         <button ng-click="test(user)">取得</button>
         {{name}}
+        <p><a href="/detail">詳細へ</a></p>
     </div>
 </div>
