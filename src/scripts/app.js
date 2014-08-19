@@ -2,7 +2,7 @@
 
 var ns = ns || {};
 
-ns.App = angular.module('portal',[
+ns.App = angular.module('portalApp',[
     'ngRoute',
     'ngResource'
 ]);
